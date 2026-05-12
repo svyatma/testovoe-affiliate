@@ -487,8 +487,7 @@ h2 {
 
 @media (max-width: 768px) {
   .slider__slide {
-    width: 100%;
-    min-width: 335px;
+    width: clamp(335px, calc(100vw - 40px), 385px);
   }
 }
 .slider__img {
