@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<header class="header">
+		<div class="container header__container">
+			
+			<a href="/" class="header__logo" aria-label="Уютная кухня">
+				<img src="img/logo-uyutnaya-kuhnya.svg" alt="Уютная кухня" width="196" height="38">
+			</a>
+			
+			<nav class="header__nav" aria-label="Основное меню">
+				<ul class="header__menu">
+					<li class="header__menu-item">
+						<a href="#" class="header__menu-link">Меню</a>
+					</li>
+					<li class="header__menu-item header__menu-item--booking">
+						<a href="#booking" class="header__menu-link header__menu-link--accent">К бронированию</a>
+					</li>
+				</ul>
+			</nav>
+		
+		</div>
+	</header>
+
+	<main>
+		
+		<section class="section hero">
+			<div class="container hero__container">
+				
+				<div class="hero__image"></div>
+				
+				<h1 class="hero__title">Домашняя кухня в центре города</h1>
+				
+				<p class="hero__subtitle">
+					Бронируйте стол онлайн — мы подготовим всё к вашему приходу.
+				</p>
+				
+				<a href="#booking" class="btn btn--primary hero__btn">Забронировать стол</a>
+			
+			</div>
+		</section>
+		
+		
+		<section class="section cta">
+			<div class="container cta__container">
+				<span class="cta__question" tabindex="0">Нравится атмосфера?</span>
+				<a href="#booking" class="cta__link">перейти к форме бронирования</a>
+			</div>
+		</section>
+		
+		
+		<section class="section slider">
+			<div class="container slider__container">
+				
+				<div class="slider__viewport">
+					
+					<button class="slider__btn slider__btn--prev" type="button" aria-label="Предыдущий слайд">
+						<span aria-hidden="true">‹</span>
+					</button>
+					
+					<div class="slider-wrapper">
+					
+						<ul class="slider__track">
+							<li class="slider__slide">
+								<picture>
+									<source srcset="img/c1.webp" type="image/webp">
+									<img 
+										class="slider__img" 
+										src="img/c1.jpg" 
+										alt="c1"
+									/>
+								</picture>
+							</li>
+							<li class="slider__slide">
+								<picture>
+									<source srcset="img/c2.webp" type="image/webp">
+									<img 
+										class="slider__img" 
+										src="img/c2.jpg" 
+										alt="c2"
+									/>
+								</picture>
+							</li>
+							<li class="slider__slide">
+								<picture>
+									<source srcset="img/c3.webp" type="image/webp">
+									<img 
+										class="slider__img" 
+										src="img/c3.jpg" 
+										alt="c3"
+									/>
+								</picture>
+							</li>
+							<li class="slider__slide">
+								<picture>
+									<source srcset="img/c4.webp" type="image/webp">
+									<img 
+										class="slider__img" 
+										src="img/c4.jpg" 
+										alt="c4"
+									/>
+								</picture>
+							</li>
+							<li class="slider__slide">
+								<picture>
+									<source srcset="img/c5.webp" type="image/webp">
+									<img 
+										class="slider__img" 
+										src="img/c5.jpg" 
+										alt="c5"
+									/>
+								</picture>
+							</li>
+							<li class="slider__slide">
+								<picture>
+									<source srcset="img/c6.webp" type="image/webp">
+									<img 
+										class="slider__img" 
+										src="img/c6.jpg" 
+										alt="c6"
+									/>
+								</picture>
+							</li>
+							<li class="slider__slide">
+								<picture>
+									<source srcset="img/c7.webp" type="image/webp">
+									<img 
+										class="slider__img" 
+										src="img/c7.jpg" 
+										alt="c7"
+									/>
+								</picture>
+							</li>
+							<li class="slider__slide">
+								<picture>
+									<source srcset="img/c8.webp" type="image/webp">
+									<img 
+										class="slider__img" 
+										src="img/c8.jpg" 
+										alt="c8"
+									/>
+								</picture>
+							</li>
+							<li class="slider__slide">
+								<picture>
+									<source srcset="img/c9.webp" type="image/webp">
+									<img 
+										class="slider__img" 
+										src="img/c9.jpg" 
+										alt="c9"
+									/>
+								</picture>
+							</li>
+						</ul>
+					
+					</div>
+					
+					<button class="slider__btn slider__btn--next" type="button" aria-label="Следующий слайд">
+						<span aria-hidden="true">›</span>
+					</button>
+
+				</div>
+				
+				<div class="slider__pagination">
+					<button class="slider__dot slider__dot--active" type="button" aria-label="Слайд 1" data-slide="0"></button>
+					<button class="slider__dot" type="button" aria-label="Слайд 2" data-slide="1"></button>
+					<button class="slider__dot" type="button" aria-label="Слайд 3" data-slide="2"></button>
+					<button class="slider__dot" type="button" aria-label="Слайд 4" data-slide="3"></button>
+					<button class="slider__dot" type="button" aria-label="Слайд 5" data-slide="4"></button>
+					<button class="slider__dot" type="button" aria-label="Слайд 6" data-slide="5"></button>
+					<button class="slider__dot" type="button" aria-label="Слайд 7" data-slide="6"></button>
+					<button class="slider__dot" type="button" aria-label="Слайд 8" data-slide="7"></button>
+					<button class="slider__dot" type="button" aria-label="Слайд 9" data-slide="8"></button>
+				</div>
+			
+			</div>
+		</section>
+
+
+		<section class="section faq">
+			<div class="container faq__container">
+
+				<h2 class="faq__title">Частые вопросы</h2>
+
+				<ul class="faq__list">
+					
+					<li class="faq__item faq__item--expanded">
+						<button class="faq__question" role="button" aria-expanded="true">
+							<span class="faq__question-text">Часы работы</span>
+							<span class="faq__question-icon" aria-hidden="true">−</span>
+						</button>
+						<p class="faq__answer">
+							Пн–Чт 10:00–22:00 · Пт–Сб 10:00–23:00 · Вс 11:00–21:00
+						</p>
+					</li>
+
+					<li class="faq__item faq__item--expanded">
+						<button class="faq__question" role="button" aria-expanded="true">
+							<span class="faq__question-text">Как добраться</span>
+							<span class="faq__question-icon" aria-hidden="true">−</span>
+						</button>
+						<p class="faq__answer">
+							м. Тверская, 5 минут пешком. Вход со двора, домофон 42.
+						</p>
+					</li>
+
+					<li class="faq__item faq__item--expanded">
+						<button class="faq__question" role="button" aria-expanded="true">
+							<span class="faq__question-text">Детям и особые пожелания</span>
+							<span class="faq__question-icon" aria-hidden="true">−</span>
+						</button>
+						<p class="faq__answer">
+							Детское меню и стульчики. Сообщите об аллергиях в форме бронирования.
+						</p>
+					</li>
+
+				</ul>
+
+			</div>
+		</section>
+
+
+		<section class="section booking" id="booking">
+			<div class="container booking__container">
+
+				<form class="booking__form" id="booking-form" novalidate>
+
+					<h2 class="booking__title">Бронирование стола</h2>
+
+					<p class="booking__subtitle">Заполните поля — перезвоним для подтверждения.</p>
+					
+					<div class="booking__field">
+						<label class="booking__label" for="first-name">Имя</label>
+						<input 
+							class="booking__input" 
+							type="text" 
+							id="first-name" 
+							name="first_name" 
+							required
+						>
+						<span class="booking__error" aria-live="polite"></span>
+					</div>
+
+					<div class="booking__field">
+						<label class="booking__label" for="last-name">Фамилия</label>
+						<input 
+							class="booking__input" 
+							type="text" 
+							id="last-name" 
+							name="last_name" 
+							required
+						>
+						<span class="booking__error" aria-live="polite"></span>
+					</div>
+
+					<div class="booking__field">
+						<label class="booking__label" for="email">Email</label>
+						<input 
+							class="booking__input" 
+							type="email" 
+							id="email" 
+							name="email" 
+							required
+						>
+						<span class="booking__error" aria-live="polite"></span>
+					</div>
+
+					<div class="booking__field">
+						<label class="booking__label" for="phone">Телефон</label>
+						<input 
+							class="booking__input" 
+							type="tel" 
+							id="phone" 
+							name="phone" 
+							required
+						>
+						<span class="booking__error" aria-live="polite"></span>
+					</div>
+
+					<button class="btn btn--secondary" type="submit">Отправить</button>
+
+				</form>
+
+			</div>
+		</section>
+		
+	</main>
+
+	<div class="modal" id="success-modal" role="dialog" aria-labelledby="modal-title" aria-hidden="true">
+		<div class="modal__overlay"></div>
+		<div class="modal__container">
+			<h3 class="modal__title" id="modal-title">Заявка отправлена</h3>
+			<p class="modal__text">Спасибо! Мы свяжемся с Вами в ближайшее время для подтверждения брони.</p>
+			<button class="btn btn--dim modal__close" type="button">Закрыть</button>
+		</div>
+	</div>
+	
+	<script src="scripts/script.js"></script>
+</body>
+</html>
