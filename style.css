@@ -189,6 +189,7 @@ svg * {
   --border-color: #E0D8CE;
   --border: 1px solid var(--border-color);
 }
+
 @media (max-width: 768px) {
   :root {
     --font-size-menu: 14px;
@@ -198,7 +199,6 @@ svg * {
     --line-height-h2: 24px;
   }
 }
-
 body {
   min-height: 100%;
   line-height: 1.5;
@@ -220,13 +220,13 @@ h2 {
   margin-top: 48px;
   padding-bottom: 20px;
 }
+
 @media (max-width: 768px) {
   .header {
     margin-top: 20px;
     padding-bottom: 11px;
   }
 }
-
 .container {
   max-width: var(--max-width);
   margin: 0 auto;
@@ -249,12 +249,12 @@ h2 {
   display: flex;
   gap: 24px;
 }
+
 @media (max-width: 768px) {
   .header__menu {
     gap: 18px;
   }
 }
-
 .header__menu-link {
   font-size: var(--font-size-menu);
   line-height: var(--lh-menu);
@@ -265,6 +265,7 @@ h2 {
   color: var(--color-accent);
   transition: 0.2s;
 }
+
 .header__menu-link--accent:hover {
   color: #B0482A;
 }
@@ -272,29 +273,28 @@ h2 {
 .section {
   padding-block: 20px;
 }
+
 @media (max-width: 768px) {
   .section {
     padding-block: 11px;
   }
 }
-
 @media (max-width: 768px) {
   .hero {
     padding-bottom: 69px;
   }
 }
-
 .hero__container {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
+
 @media (max-width: 768px) {
   .hero__container {
     gap: 14px;
   }
 }
-
 .hero__image {
   width: 100%;
   max-width: var(--max-width);
@@ -306,6 +306,7 @@ h2 {
   background-position: center center;
   background-repeat: no-repeat;
 }
+
 @media (max-width: 768px) {
   .hero__image {
     height: 200px;
@@ -313,7 +314,6 @@ h2 {
     background-image: url("./img/hero__image-mobile.webp");
   }
 }
-
 .hero__text img {
   object-fit: cover;
 }
@@ -328,13 +328,13 @@ h2 {
   font-size: 17px;
   color: var(--text-color-secondary);
 }
+
 @media (max-width: 768px) {
   .hero__subtitle {
     font-size: 15px;
     line-height: 1.45;
   }
 }
-
 .btn {
   display: flex;
   align-items: center;
@@ -348,6 +348,7 @@ h2 {
   letter-spacing: 0.01em;
   transition: 0.3s;
 }
+
 @media (max-width: 768px) {
   .btn {
     padding: 12px 22px;
@@ -355,13 +356,14 @@ h2 {
     line-height: 18px;
   }
 }
-
 .btn--primary {
   background-color: var(--color-accent);
 }
+
 .btn--primary:hover {
   background-color: #B0482A;
 }
+
 .btn--primary:active {
   background-color: var(--color-accent);
   transition: 0.1s;
@@ -374,34 +376,34 @@ h2 {
   font-size: 15px;
   line-height: 18px;
 }
+
 @media (max-width: 768px) {
   .cta__container {
     flex-direction: column;
     align-items: start;
   }
 }
-
 @media (max-width: 768px) {
   .cta__question {
     font-size: 14px;
     line-height: 17px;
   }
 }
-
 .cta__link {
   color: var(--color-accent);
   transition: 0.2s;
 }
+
 .cta__link:hover {
   color: #B0482A;
 }
+
 @media (max-width: 768px) {
   .cta__link {
     font-size: 14px;
     line-height: 17px;
   }
 }
-
 .slider__container {
   display: flex;
   flex-direction: column;
@@ -429,6 +431,7 @@ h2 {
   font-size: 24px;
   position: absolute;
 }
+
 @media (max-width: 768px) {
   .slider__btn {
     width: 36px;
@@ -437,7 +440,6 @@ h2 {
     font-size: 20px;
   }
 }
-
 .slider__btn--prev {
   position: absolute;
   left: 0;
@@ -459,36 +461,36 @@ h2 {
   margin-inline: 50px;
   display: flex;
 }
+
 @media (max-width: 768px) {
   .slider-wrapper {
     margin-inline: 0;
   }
 }
-
 .slider__track {
   display: flex;
   gap: 16px;
   transition: transform 0.3s;
 }
+
 @media (max-width: 768px) {
   .slider__track {
     gap: 12px;
   }
 }
-
 .slider__slide {
   width: 244px;
   height: 180px;
   border-radius: 10px;
   overflow: hidden;
 }
+
 @media (max-width: 768px) {
   .slider__slide {
     width: 100%;
     min-width: 335px;
   }
 }
-
 .slider__img {
   width: 100%;
   height: 100%;
@@ -501,12 +503,12 @@ h2 {
   justify-content: center;
   gap: 8px;
 }
+
 @media (max-width: 768px) {
   .slider__pagination {
     gap: 6px;
   }
 }
-
 .slider__dot {
   width: 8px;
   height: 8px;
@@ -514,6 +516,7 @@ h2 {
   background-color: #D4CCC2;
   border-radius: 4px;
 }
+
 @media (max-width: 768px) {
   .slider__dot {
     width: 7px;
@@ -521,7 +524,6 @@ h2 {
     flex: 0 0 7px;
   }
 }
-
 .slider__dot--active {
   background-color: var(--color-accent);
 }
@@ -531,12 +533,12 @@ h2 {
   flex-direction: column;
   gap: 16px;
 }
+
 @media (max-width: 768px) {
   .faq__container {
     gap: 12px;
   }
 }
-
 .faq__list {
   display: flex;
   flex-direction: column;
@@ -557,6 +559,7 @@ h2 {
   border: var(--border);
   cursor: pointer;
 }
+
 @media (max-width: 768px) {
   .faq__question {
     padding: 13px;
@@ -567,19 +570,18 @@ h2 {
     border-radius: 8px;
   }
 }
-
 .faq__question-text {
   font-size: 16px;
   line-height: 19px;
   font-weight: 600;
 }
+
 @media (max-width: 768px) {
   .faq__question-text {
     font-size: 15px;
     line-height: 18px;
   }
 }
-
 .faq__question-icon {
   font-size: 15px;
   line-height: 18px;
@@ -597,42 +599,42 @@ h2 {
   transition: 0.3s ease;
   height: 0;
 }
+
 @media (max-width: 768px) {
   .faq__answer {
     padding: 0 14px 0 14px;
     font-size: 13px;
   }
 }
-
 .faq__item--expanded .faq__answer {
   height: 100%;
   padding: 12px 16px 16px 16px;
   line-height: 1.45;
 }
+
 @media (max-width: 768px) {
   .faq__item--expanded .faq__answer {
     padding: 10px 14px 14px 14px;
   }
 }
-
 .faq__item--expanded .faq__question {
   border-radius: 10px 10px 0 0;
 }
+
 @media (max-width: 768px) {
   .faq__item--expanded .faq__question {
     border-radius: 8px 8px 0 0;
   }
 }
-
 .booking {
   padding-bottom: 48px;
 }
+
 @media (max-width: 768px) {
   .booking {
     padding-bottom: 20px;
   }
 }
-
 .booking__form {
   display: flex;
   flex-direction: column;
@@ -642,40 +644,42 @@ h2 {
   background-color: #fff;
   border: var(--border);
 }
+
 @media (max-width: 768px) {
   .booking__form {
     padding: 19px;
     gap: 14px;
   }
 }
-
 .booking__subtitle {
   font-size: 14px;
   line-height: 1.45;
   color: var(--text-color-secondary);
 }
+
 @media (max-width: 768px) {
   .booking__subtitle {
     font-size: 13px;
   }
 }
-
 .btn--secondary {
   background-color: #5C6B4A;
   padding-inline: 32px;
 }
+
 .btn--secondary:hover {
   background-color: #485736;
 }
+
 .btn--secondary:active {
   background-color: #5C6B4A;
 }
+
 @media (max-width: 768px) {
   .btn--secondary {
     padding-inline: 28px;
   }
 }
-
 .booking__field {
   display: flex;
   flex-direction: column;
@@ -688,13 +692,13 @@ h2 {
   line-height: 16px;
   font-weight: 600;
 }
+
 @media (max-width: 768px) {
   .booking__label {
     font-size: 12px;
     line-height: 15px;
   }
 }
-
 .booking__input {
   background-color: var(--input-background-color);
   border: 1px solid var(--input-border-color);
@@ -706,14 +710,22 @@ h2 {
   font-size: 16px;
   transition: 0.2s;
 }
+@media (max-width: 768px) {
+  .booking__input {
+    font-size: 13px;
+  }
+}
+
 .booking__input:hover {
   border-color: #C0B8AE;
 }
+
 .booking__input:focus {
   outline: none;
   border-color: #C0B8AE;
   box-shadow: 0px 0px 0px 1px #C0B8AE;
 }
+
 .booking__error {
   color: rgb(255, 42, 42);
   font-size: 12px;
@@ -721,12 +733,12 @@ h2 {
   top: 0;
   right: 0;
 }
+
 @media (max-width: 768px) {
   .booking__error {
     font-size: 10px;
   }
 }
-
 .modal {
   position: fixed;
   inset: 0;
@@ -770,6 +782,7 @@ h2 {
   position: relative;
   z-index: 2;
 }
+
 @media (max-width: 768px) {
   .modal__container {
     padding: 23px;
@@ -777,39 +790,41 @@ h2 {
     width: 311px;
   }
 }
-
 .modal__title {
   font-size: 22px;
   line-height: 27px;
   font-weight: 700;
 }
+
 @media (max-width: 768px) {
   .modal__title {
     font-size: 20px;
     line-height: 24px;
   }
 }
-
 .modal__text {
   font-size: 15px;
   color: var(--text-color-secondary);
 }
+
 @media (max-width: 768px) {
   .modal__text {
     font-size: 14px;
   }
 }
-
 .btn--dim {
   background-color: #E8DFD4;
   color: inherit;
 }
+
 .btn--dim:hover {
   background-color: #DED5CA;
 }
+
 .btn--dim:active {
   background-color: #E8DFD4;
 }
+
 @media (max-width: 768px) {
   .btn--dim {
     font-size: 14px;
@@ -817,7 +832,6 @@ h2 {
     padding-block: 10px;
   }
 }
-
 .slider__btn[aria-disabled=true] {
   opacity: 0.4;
   pointer-events: none;
